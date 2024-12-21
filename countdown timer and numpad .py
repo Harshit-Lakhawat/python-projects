@@ -10,3 +10,12 @@ for x in range(a,0,-1):
     time.sleep(1)
 
 print("Times UP !!!")
+
+NUm pad:
+num_pad = ((1 , 2 ,3),
+            (4 , 5 ,6),
+            (7 , 8 ,9))
+for rows in num_pad:
+    for num in rows:
+        print(num, end=" ")
+    print()
